@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: grey;
+    color: #333;
 }
 
 h2 {
@@ -21,4 +21,33 @@ code {
     padding: 2px 4px;
     vertical-align: text-bottom;
     background: #eee;
+}
+
+.first-box-container {
+    width: 180px;
+    height: 400px;
+    padding: 20px;
+    border-style: groove;
+    border-color: grey;
+    position: absolute;
+}
+  
+.second-box-container {
+    width: 180px;
+    height: 400px;
+    padding: 20px;
+    border-style: groove;
+    border-color: grey;
+    position: absolute;
+    left: 770px;
+}
+  
+.third-box-container {
+    width: 180px;
+    height: 400px;
+    padding: 20px;
+    border-style: groove;
+    border-color: grey;
+    position: absolute;
+    left: 1010px;
 }
